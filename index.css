@@ -1,0 +1,48 @@
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+header > div > h1 {
+	color: silver;
+}
+
+ul > li > a {
+	color: silver;
+}
+
+body {
+	background: #181818;
+	color: white;
+}
+
+h1,
+a {
+	color: white;
+}
+
+div.wac-description {
+	width: 70%;
+}
+
+main {
+	display: flex;
+	margin-top: 10px;
+	flex-direction: column;
+}
+
+img {
+	border: none;
+	border-radius: 5px;
+	max-width: 150%;
+	max-height: 150%;
+}
+
+@media only screen and (min-width: 768px) {
+	main {
+		display: flex;
+		margin-top: 100px;
+		flex-direction: row;
+	}
+}

@@ -4,46 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>wac</title>
-		<style>
-			header {
-				display: flex;
-				flex-direction: row;
-				justify-content: space-between;
-			}
-
-			header > div > h1 {
-				color: silver;
-			}
-
-			ul > li > a {
-				color: silver;
-			}
-
-			body {
-				background: #181818;
-				color: white;
-			}
-
-			h1,
-			a {
-				color: white;
-			}
-
-			main {
-				display: block;
-			}
-
-			main:nth-child() {
-				margin: 0px auto;
-			}
-
-			img {
-				border: none;
-				border-radius: 5px;
-				max-width: 20%;
-				max-height: 20%;
-			}
-		</style>
+		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body>
 		<header>
@@ -57,12 +18,15 @@
 			</nav>
 		</header>
 		<main>
+			<div class="wac-description">
+				<span> Hi, I am Wagner</span>
+				<p>HTML5 / JavaScript / CSS3</p>
+				<a href="#">Contact me</a>
+			</div>
+
 			<figure>
 				<img src="assets/wac.jpg" />
 			</figure>
-			<span> Hi, I am Wagner</span>
-			<p>HTML5 / JavaScript / CSS3</p>
-			<a href="#">Contact me</a>
 		</main>
 
 		<script src="index.js"></script>
