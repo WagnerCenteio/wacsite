@@ -28,6 +28,9 @@ section.description {
 	top: 200px;
 }
 
+/**
+ ** FIXME:  Set the blur filter programaticaly instead of css hardcoded
+ */
 div.cover {
 	background-image: url('./assets/wac.jpg');
 	filter: blur(3px);
