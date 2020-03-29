@@ -1,7 +1,6 @@
 # wacsite
 Personal Website
 
-# inspiration
+# inspirations
 http://www.garysheng.com/
-
 https://app.pluralsight.com/library/
