@@ -1,18 +1,14 @@
 /**  General rules */
-
-header {
-	position: relative;
-}
-
 nav {
-	float: right;
+	position: absolute;
+	top: 1rem;
+	right: 0.5rem;
+	width: 15rem;
+	display: flex;
+	justify-content: space-evenly;
 }
 
-nav ul li {
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
+html,
 body {
 	color: #fffdd0;
 	font-family: roboto, helvetica, sans-serif;
@@ -23,9 +19,9 @@ body {
 section.description {
 	position: absolute;
 	left: 1000px;
-	font-size: 14px;
+	font-size: 1rem;
 	font-style: oblique;
-	top: 200px;
+	top: 15rem;
 }
 
 /**
@@ -69,10 +65,6 @@ img {
 }
 
 /**  Animations rules */
-/*
-.blur {
-	filter: blur(1px);
-} */
 
 .animate {
 	display: none;

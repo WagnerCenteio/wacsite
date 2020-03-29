@@ -1,6 +1,6 @@
 
 Todo:
-  ☐ Set animation flag in localstorage so it runs only 1 time
-  ☐ Add space betwenn header items
-  ☐ Add right margin in header
+  ✔ Set animation flag in localstorage so it runs only 1 time @done(20-03-29 20:21)
+  ✔ Add space betwenn nav items @done(20-03-29 21:15)
+  ✔ Add right margin in nav @done(20-03-29 21:16)
   ☐ Mobile first responsive design
