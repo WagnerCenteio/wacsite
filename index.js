@@ -1,7 +1,7 @@
 let i = 0;
 const descrtptions = document.querySelectorAll('.animate');
 const isToAnimateDescription = localStorage.getItem('isDescriptionAnimated');
-const cover = document.querySelector('.cover');
+const profilePic = document.querySelector('.profile-pic img');
 
 /**
  ** FIXME:  Set the blur filter programaticaly instead of css hardcoded
@@ -15,11 +15,11 @@ if (!isToAnimateDescription) {
 			clearInterval(runAnimation);
 			localStorage.setItem('isDescriptionAnimated', true);
 			setTimeout(() => {
-				cover.style.filter = 'none';
+				profilePic.style.filter = 'none';
 			}, 1500);
 		}
 	}, 1500);
 } else {
-	descrtptions.forEach(item => (item.style.display = 'inline-block'));
-	cover.style.filter = 'none';
+	descrtptions.forEach((item) => (item.style.display = 'inline-block'));
+	profilePic.style.filter = 'none';
 }
