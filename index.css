@@ -70,7 +70,8 @@ div.profile-pic img {
 	margin: 1rem;
 }
 
-a {
+nav a,
+a.contact-link {
 	padding: 0.2rem 0.5rem;
 	text-decoration: none;
 	color: #ec008c;
