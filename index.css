@@ -6,8 +6,8 @@ body {
 	font-family: gotham ssm a, gotham ssm b, sans-serif;
 	padding: 0;
 	margin: 0;
-	overflow-x: hidden;
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 header {
@@ -20,10 +20,20 @@ header {
 	font-weight: 700;
 }
 
+footer {
+	margin-top: 100px;
+	text-align: center;
+}
+
 nav {
-	width: 25rem;
+	width: 35rem;
 	display: flex;
 	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 nav a {
@@ -37,6 +47,7 @@ nav a:hover {
 ul {
 	list-style-type: none;
 	padding: 0;
+	color: silver;
 }
 
 main {
@@ -53,7 +64,7 @@ main {
 }
 
 section.description {
-	position: absolute;
+	/* position: absolute; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -64,7 +75,7 @@ section.description {
 }
 
 section.my-expirience {
-	position: absolute;
+	/* position: absolute; */
 	padding: 1em;
 	color: white;
 	line-height: 0.8rem;
@@ -78,14 +89,15 @@ section.my-expirience {
 }
 
 .my-expirience-list .card {
-	padding: 1rem;
+	padding: 2rem;
 	margin: 0.5rem;
 }
 
 div.card {
 	background-color: #222222;
-	height: 6rem;
+	height: 7rem;
 	width: 12rem;
+	padding: 2rem;
 }
 
 /**
@@ -117,7 +129,7 @@ a:hover {
 	main {
 		display: flex;
 		margin-top: 100px;
-		flex-direction: row;
+		flex-direction: column;
 	}
 }
 
