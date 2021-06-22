@@ -23,3 +23,15 @@ if (!isToAnimateDescription) {
 	descrtptions.forEach((item) => (item.style.display = 'inline-block'));
 	profilePic.style.filter = 'none';
 }
+
+function openModal() {
+	const modal = document.querySelector('.modal');
+	modal.style.display = 'block';
+}
+
+function closeModal() {
+	const modal = document.querySelector('.modal');
+	modal.style.display = 'none';
+}
+
+document.querySelectorAll('.card').forEach((card) => card.addEventListener('click', openModal));

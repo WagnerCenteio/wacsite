@@ -98,6 +98,19 @@ div.card {
 	height: 7rem;
 	width: 12rem;
 	padding: 2rem;
+	cursor: pointer;
+}
+
+div.modal {
+	display: none;
+	opacity: 0.6;
+	background-color: #000000;
+	z-index: 300;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
 }
 
 /**
