@@ -11,6 +11,8 @@ body {
 }
 
 header {
+	position: fixed;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	background-color: #222222;
@@ -23,6 +25,7 @@ header {
 footer {
 	margin-top: 100px;
 	text-align: center;
+	padding: 1rem;
 }
 
 nav {
@@ -99,6 +102,12 @@ div.card {
 	width: 12rem;
 	padding: 2rem;
 	cursor: pointer;
+}
+
+div.card p {
+	text-align: right;
+	padding: 0;
+	margin: 0;
 }
 
 div.modal {
