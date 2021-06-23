@@ -35,3 +35,5 @@ function closeModal() {
 }
 
 document.querySelectorAll('.card').forEach((card) => card.addEventListener('click', openModal));
+
+document.querySelector('.close').addEventListener('click', closeModal);
