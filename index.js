@@ -37,3 +37,33 @@ function closeModal() {
 document.querySelectorAll('.card').forEach((card) => card.addEventListener('click', openModal));
 
 document.querySelector('.close').addEventListener('click', closeModal);
+
+document.querySelector('#about').addEventListener('click', () => {
+	e.preventDefault();
+	const aboutSection = document.querySelector('.description');
+	aboutSection.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+});
+
+document.querySelector('#experience').addEventListener('click', () => {
+	e.preventDefault();
+	const expSection = document.querySelector('.experience');
+	expSection.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+});
+
+document.querySelector('#work').addEventListener('click', () => {
+	//todo:
+	// const aboutSection = document.querySelector('.description');
+	// aboutSection.scrollIntoView();
+});
+
+document.querySelector('#skills').addEventListener('click', (e) => {
+	e.preventDefault();
+	const skillsSection = document.querySelector('.skills');
+	skillsSection.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+});
+
+document.querySelector('#contact').addEventListener('click', () => {
+	e.preventDefault();
+	const aboutSection = document.querySelector('.description');
+	aboutSection.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+});

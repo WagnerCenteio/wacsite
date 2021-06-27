@@ -77,7 +77,7 @@ section.description {
 	top: 12rem;
 }
 
-section.my-expirience {
+section {
 	/* position: absolute; */
 	padding: 1em;
 	color: white;
@@ -85,13 +85,13 @@ section.my-expirience {
 	top: 28rem;
 }
 
-.my-expirience-list {
+.card-list {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-.my-expirience-list .card {
+.card-list .card {
 	padding: 2rem;
 	margin: 0.5rem;
 }
@@ -122,8 +122,8 @@ div.modal {
 	width: 100%;
 	padding-top: 8%;
 	overflow: auto;
-	animation-name: animatetop;
-	animation-duration: 0.5s;
+	/* animation-name: animatetop;
+	animation-duration: 0.5s; */
 }
 
 div.modal .modal-title {
@@ -219,7 +219,7 @@ a:hover {
 }
 
 /* Add Animation */
-@keyframes animatetop {
+/* @keyframes animatetop {
 	from {
 		top: -300px;
 		opacity: 0;
@@ -228,4 +228,4 @@ a:hover {
 		top: 0;
 		opacity: 1;
 	}
-}
+} */
