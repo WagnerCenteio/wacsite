@@ -28,6 +28,54 @@ footer {
 	padding: 1rem;
 }
 
+form {
+	margin: 2px;
+	padding: 2px;
+}
+
+form button {
+	float: right;
+	padding: 5px;
+	color: #ec008c;
+	background-color: #222222;
+	border: none;
+	margin-right: 0;
+	cursor: pointer;
+	width: 80px;
+}
+
+form button:hover {
+	background-color: #000000;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+	outline: none !important;
+	border: 1px solid #ec008c;
+	box-shadow: 0 0 2px #719ece;
+}
+
+form label {
+	font-size: 0.8rem;
+	margin-left: 10px;
+}
+
+form,
+input,
+textarea {
+	margin: 5px;
+}
+
+form input,
+textarea {
+	width: 100%;
+	background-color: #222222;
+	color: white;
+	border: 1.5px solid #000000;
+	padding: 5px;
+}
+
 nav {
 	width: 35rem;
 	display: flex;
@@ -128,17 +176,21 @@ div.modal {
 
 div.modal .modal-title {
 	width: 80%;
+	font-size: 0.9rem;
+	font-weight: bold;
+	color: #aaa;
 	height: 22px;
 	margin: 0 auto;
 	background-color: #181818;
 	z-index: 4;
 	position: relative;
 	padding: 10px;
+	border-bottom: 1px solid #000000;
 }
 
 div.modal .modal-body {
 	width: 80%;
-	height: 60vh;
+	height: 65vh;
 	margin: 0 auto;
 	background-color: #181818;
 	z-index: 4;
@@ -146,9 +198,13 @@ div.modal .modal-body {
 	padding: 10px;
 }
 
+div.modal-body .modal-content {
+	margin: 2%;
+	color: white;
+}
+
 /* The Close Button */
 .close {
-	color: #aaa;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
@@ -157,7 +213,7 @@ div.modal .modal-body {
 
 .close:hover,
 .close:focus {
-	color: black;
+	color: #000000;
 	text-decoration: none;
 	cursor: pointer;
 }
